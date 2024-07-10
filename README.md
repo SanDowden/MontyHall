@@ -53,7 +53,7 @@ The other main options are:
 
 For example:
 
-`python driver.py -d3 -c1000` will run the simulation 1000 times, where each game has 10 doors. The user will not swap. In this case, we see the win to loss ratio hovering around 1 in 3.
+`python driver.py -d3 -c1000` will run the simulation 1000 times, where each game has 3 doors. The user will not swap. In this case, we see the win to loss ratio hovering around 1 in 3.
 
 ```
 python driver.py -d3 -c1000
@@ -67,7 +67,7 @@ Losses: 667
 Ratio: 0.333 (33.300%)
 ```
 
-`python driver.py -d3 -c1000 -s` will run the simulation 1000 times, where each game has 10 doors. The user will swap. In this case, we see the win to loss ratio hovering around 2 in 3.
+`python driver.py -d3 -c1000 -s` will run the simulation 1000 times, where each game has 3 doors. The user will swap. In this case, we see the win to loss ratio hovering around 2 in 3.
 ```
 python driver.py -d3 -c1000 -s
 Progress:
